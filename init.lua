@@ -1,0 +1,2 @@
+require("censacrof")
+print("hello") 
