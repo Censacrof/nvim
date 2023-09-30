@@ -1,2 +1,1 @@
 require("censacrof")
-print("hello") 
