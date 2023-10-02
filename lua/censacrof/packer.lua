@@ -52,4 +52,6 @@ return require('packer').startup(function(use)
 			'nvim-tree/nvim-web-devicons', -- optional
 		},
 	}
+
+	use('rbong/vim-flog')
 end)
