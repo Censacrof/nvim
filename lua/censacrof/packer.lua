@@ -54,4 +54,6 @@ return require('packer').startup(function(use)
 	}
 
 	use('rbong/vim-flog')
+
+	use('sbdchd/neoformat')
 end)
