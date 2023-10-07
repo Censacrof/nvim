@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
 	use('rbong/vim-flog')
 
 	use('sbdchd/neoformat')
+
+	use('mhinz/vim-signify')
 end)
