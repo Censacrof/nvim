@@ -58,4 +58,9 @@ return require('packer').startup(function(use)
 	use('sbdchd/neoformat')
 
 	use('mhinz/vim-signify')
+
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
 end)
