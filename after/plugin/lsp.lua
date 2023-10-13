@@ -36,6 +36,7 @@ require('mason-lspconfig').setup({
 	    ['<C-b>'] = cmp_action.luasnip_jump_backward(),
 	    ['<C-u>'] = cmp.mapping.scroll_docs(-4),
 	    ['<C-d>'] = cmp.mapping.scroll_docs(4),
+		['<Tab>'] = cmp.mapping.confirm({ select = true })
     })
   })
 
