@@ -198,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/vim-signify",
     url = "https://github.com/mhinz/vim-signify"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
