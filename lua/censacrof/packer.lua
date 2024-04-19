@@ -47,6 +47,9 @@ return require('packer').startup(function(use)
 			{ 'hrsh7th/cmp-path' },
 			{ 'hrsh7th/cmp-cmdline' },
 
+			--signature-helpp
+			{ 'hrsh7th/cmp-nvim-lsp-signature-help' },
+
 			-- snippets
 			{ 'L3MON4D3/LuaSnip' },   -- snippet engine
 			{ 'saadparwaiz1/cmp_luasnip' }, -- for autocompletion
