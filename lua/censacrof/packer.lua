@@ -65,8 +65,6 @@ return require('packer').startup(function(use)
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 	}
 
-	use('ray-x/lsp_signature.nvim')
-
 	use('tpope/vim-abolish')
 
 	use("vrischmann/tree-sitter-templ")
