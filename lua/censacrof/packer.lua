@@ -69,8 +69,6 @@ return require('packer').startup(function(use)
 
 	use('sbdchd/neoformat')
 
-	use('mhinz/vim-signify')
-
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
@@ -79,4 +77,6 @@ return require('packer').startup(function(use)
 	use('tpope/vim-abolish')
 
 	use("vrischmann/tree-sitter-templ")
+
+	use('lewis6991/gitsigns.nvim')
 end)
