@@ -43,7 +43,14 @@ return require('packer').startup(function(use)
 			-- Autocompletion
 			{ 'hrsh7th/nvim-cmp' },
 			{ 'hrsh7th/cmp-nvim-lsp' },
-			{ 'L3MON4D3/LuaSnip' },
+			{ 'hrsh7th/cmp-buffer' },
+			{ 'hrsh7th/cmp-path' },
+			{ 'hrsh7th/cmp-cmdline' },
+
+			-- snippets
+			{ 'L3MON4D3/LuaSnip' },   -- snippet engine
+			{ 'saadparwaiz1/cmp_luasnip' }, -- for autocompletion
+			{ 'rafamadriz/friendly-snippets' } -- useful snippets
 		}
 	}
 
