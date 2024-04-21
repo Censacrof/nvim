@@ -27,3 +27,7 @@ vim.filetype.add({
   templ = "templ",
  },
 })
+
+vim.o.timeout = true
+vim.o.timeoutlen = 300
+
