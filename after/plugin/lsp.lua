@@ -1,3 +1,7 @@
+require("neodev").setup({
+	-- add any options here, or leave empty to use the default settings
+})
+
 local lsp_zero = require('lsp-zero')
 
 lsp_zero.on_attach(function(client, bufnr)
@@ -17,9 +21,6 @@ require('mason-lspconfig').setup({
 		lsp_zero.default_setup,
 	},
 })
-
-
-
 
 
 local cmp = require('cmp')
