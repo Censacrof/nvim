@@ -17,8 +17,4 @@ local openDiagnostic = function() vim.diagnostic.open_float() end
 vim.keymap.set("n", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 vim.keymap.set("i", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 
-vim.keymap.set("n", "qo", ":copen<CR>", { desc = "Open quickfix list" })
-vim.keymap.set("n", "qc", ":cclose<CR>", { desc = "Close quickfix list" })
-vim.keymap.set("n", "qp", ":cprev<CR>", { desc = "Previous quickfix list item" })
-vim.keymap.set("n", "qn", ":cnext<CR>", { desc = "Next quickfix list item" })
 
