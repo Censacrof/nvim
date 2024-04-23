@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["quick-edit.nvim"] = {
+    loaded = true,
+    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/quick-edit.nvim",
+    url = "/home/francesco/git/quick-edit.nvim"
+  },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/rose-pine",
