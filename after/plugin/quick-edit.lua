@@ -1,1 +1,1 @@
-require("quick-edit")
+require("quick-edit").setup()
