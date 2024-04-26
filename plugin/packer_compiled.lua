@@ -204,6 +204,11 @@ _G.packer_plugins = {
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/quick-edit.nvim",
     url = "/home/francesco/git/quick-edit.nvim"
   },
+  ["replacer.nvim"] = {
+    loaded = true,
+    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/replacer.nvim",
+    url = "https://github.com/gabrielpoca/replacer.nvim"
+  },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/rose-pine",

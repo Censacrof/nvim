@@ -83,4 +83,6 @@ return require('packer').startup(function(use)
 	use('folke/neodev.nvim')
 
 	use('~/git/quick-edit.nvim')
+
+	use('gabrielpoca/replacer.nvim')
 end)
