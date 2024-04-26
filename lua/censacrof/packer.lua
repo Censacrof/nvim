@@ -82,5 +82,5 @@ return require('packer').startup(function(use)
 
 	use('folke/neodev.nvim')
 
-	use('stefandtw/quickfix-reflector.vim')
+	use('gabrielpoca/replacer.nvim')
 end)

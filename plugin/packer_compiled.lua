@@ -199,10 +199,10 @@ _G.packer_plugins = {
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["quickfix-reflector.vim"] = {
+  ["replacer.nvim"] = {
     loaded = true,
-    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/quickfix-reflector.vim",
-    url = "https://github.com/stefandtw/quickfix-reflector.vim"
+    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/replacer.nvim",
+    url = "https://github.com/gabrielpoca/replacer.nvim"
   },
   ["rose-pine"] = {
     loaded = true,
