@@ -85,4 +85,10 @@ return require('packer').startup(function(use)
 	use('gabrielpoca/replacer.nvim')
 
 	use('wincent/ferret')
+
+	use('nvim-pack/nvim-spectre', {
+		requires = {
+			'nvim-lua/plenary.nvim'
+		}
+	})
 end)
