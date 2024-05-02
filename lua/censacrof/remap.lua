@@ -17,5 +17,6 @@ local openDiagnostic = function() vim.diagnostic.open_float() end
 vim.keymap.set("n", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 vim.keymap.set("i", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 
--- case insensitive search by default
+-- case insensitive search by default, use ? for case sensitive
 vim.keymap.set("n", "/", "/\\c")
+vim.keymap.set("n", "?", "/")
