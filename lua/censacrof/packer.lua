@@ -81,6 +81,10 @@ return require('packer').startup(function(use)
 	use('lewis6991/gitsigns.nvim')
 
 	use('folke/neodev.nvim')
+	use {
+		'folke/trouble.nvim',
+		branch = 'dev'
+	}
 
 	use('gabrielpoca/replacer.nvim')
 
