@@ -97,4 +97,6 @@ return require('packer').startup(function(use)
 	})
 
 	use('numToStr/Comment.nvim')
+
+	use('stevearc/oil.nvim')
 end)

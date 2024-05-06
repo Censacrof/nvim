@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["oil.nvim"] = {
+    loaded = true,
+    path = "/home/francesco/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
+  },
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/francesco/.local/share/nvim/site/pack/packer/start/onedark.nvim",
