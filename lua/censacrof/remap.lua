@@ -20,3 +20,7 @@ vim.keymap.set("i", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 -- case insensitive search by default, use ? for case sensitive
 vim.keymap.set("n", "/", "/\\c")
 vim.keymap.set("n", "?", "/")
+
+-- enter norma mode with jk
+vim.keymap.set("i", "jk", "<esc>")
+
