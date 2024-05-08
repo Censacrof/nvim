@@ -83,7 +83,9 @@ return require('packer').startup(function(use)
 	use('folke/neodev.nvim')
 	use {
 		'folke/trouble.nvim',
-		branch = 'dev'
+		requires = {
+			'nvim-tree/nvim-web-devicons', -- optional
+		},
 	}
 
 	use('gabrielpoca/replacer.nvim')
