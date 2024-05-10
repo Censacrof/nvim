@@ -13,4 +13,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- tell lazy to load plugins specs from "plugins" folder
-require("lazy").setup("plugins")
+require("lazy").setup("censacrof.plugins")
