@@ -81,12 +81,14 @@ return require('packer').startup(function(use)
 	use('lewis6991/gitsigns.nvim')
 
 	use('folke/neodev.nvim')
-	use {
-		'folke/trouble.nvim',
-		requires = {
-			'nvim-tree/nvim-web-devicons', -- optional
-		},
-	}
+
+	-- uncomment when v3 is out
+	-- use {
+	-- 	'folke/trouble.nvim',
+	-- 	requires = {
+	-- 		'nvim-tree/nvim-web-devicons', -- optional
+	-- 	},
+	-- }
 
 	use('gabrielpoca/replacer.nvim')
 
