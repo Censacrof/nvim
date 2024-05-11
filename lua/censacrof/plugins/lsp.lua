@@ -1,4 +1,5 @@
 return {
+	{ "folke/neodev.nvim" },
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
 	{ "neovim/nvim-lspconfig" },
@@ -22,6 +23,11 @@ return {
 				-- to learn the available actions
 				lsp_zero.default_keymaps({ buffer = bufnr })
 			end)
+
+			-- IMPORTANT: make sure to setup neodev BEFORE lspconfig
+			require("neodev").setup({
+				-- add any options here, or leave empty to use the default settings
+			})
 
 			-- here you can setup the language servers	
 			require("mason").setup({})
