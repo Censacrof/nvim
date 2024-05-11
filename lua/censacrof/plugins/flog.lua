@@ -5,7 +5,7 @@ return {
 	dependencies = {
 		"tpope/vim-fugitive",
 	},
-	init = function()
+	init = function ()
 		vim.keymap.set("n", "<leader>gv", vim.cmd.Flog, { desc = "Flog: open git graph" })
 	end
 }

@@ -14,7 +14,7 @@ return {
 	{
 		"VonHeikemen/lsp-zero.nvim",
 		branch = "v3.x",
-		init = function()
+		init = function ()
 			local lsp_zero = require("lsp-zero")
 			lsp_zero.extend_lspconfig()
 

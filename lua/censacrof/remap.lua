@@ -13,7 +13,7 @@ vim.keymap.set("n", "<leader>Y", "\"+Y", { desc = "Copy to system clipboard" })
 
 vim.keymap.set("n", "Q", "<nop>")
 
-local openDiagnostic = function() vim.diagnostic.open_float() end
+local openDiagnostic = function () vim.diagnostic.open_float() end
 vim.keymap.set("n", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 vim.keymap.set("i", "<C-h>", openDiagnostic, { desc = "Open diagnostic" })
 

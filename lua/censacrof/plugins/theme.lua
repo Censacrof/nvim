@@ -1,6 +1,6 @@
 return {
 	'navarasu/onedark.nvim',
-	init = function() 
+	init = function () 
 		local onedark = require('onedark')
 
 		onedark.setup({

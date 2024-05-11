@@ -1,7 +1,7 @@
 return {
 	"nvim-tree/nvim-tree.lua",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
-	init = function()
+	init = function ()
 		-- vim.keymap.set("n", "<leader>pv", vim.cmd.NvimTreeToggle, { desc = "NvimTree: toggle" })
 		vim.keymap.set("n", "<leader>ff", vim.cmd.NvimTreeFindFile, { desc = "NvimTree: highlight current file" })
 
