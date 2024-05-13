@@ -1,6 +1,6 @@
 return {
 	'echasnovski/mini.bracketed',
-	version = '*',
+	version = false,
 	init = function()
 		require('mini.bracketed').setup()
 	end
