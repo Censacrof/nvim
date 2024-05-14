@@ -24,9 +24,9 @@ return {
 				lsp_zero.default_keymaps({ buffer = bufnr })
 
 				vim.keymap.set("n", "gD", function() vim.lsp.buf.declaration() end,
-					{ noremap = true, silent = true })
+					{ noremap = true, silent = true, desc = "lsp: go to declaration" })
 				vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end,
-					{ noremap = true, silent = true })
+					{ noremap = true, silent = true, desc = "lsp: go to definition"  })
 			end)
 
 			-- IMPORTANT: make sure to setup neodev BEFORE lspconfig
