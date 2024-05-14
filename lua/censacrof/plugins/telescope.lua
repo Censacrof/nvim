@@ -1,5 +1,4 @@
 return {
-	{ "nvim-telescope/telescope-ui-select.nvim" },
 	{
 		"nvim-telescope/telescope.nvim",
 		dependencies = { "nvim-lua/plenary.nvim" },
@@ -15,16 +14,6 @@ return {
 
 			vim.keymap.set('n', 'gr', function() builtin.lsp_references() end,
 				{ desc = "Telescope: find references", noremap = true, silent = true })
-
-			require("telescope").setup {
-				extensions = {
-					["ui-select"] = {
-						require("telescope.themes").get_cursor({})
-					}
-				}
-			}
-
-			require("telescope").load_extension("ui-select")
 		end
 	}
 }
