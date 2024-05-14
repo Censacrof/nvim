@@ -14,7 +14,7 @@ return {
 	{
 		"VonHeikemen/lsp-zero.nvim",
 		branch = "v3.x",
-		init = function ()
+		init = function()
 			local lsp_zero = require("lsp-zero")
 			lsp_zero.extend_lspconfig()
 
@@ -22,6 +22,11 @@ return {
 				-- see :help lsp-zero-keybindings
 				-- to learn the available actions
 				lsp_zero.default_keymaps({ buffer = bufnr })
+
+				vim.keymap.set("n", "gD", function() vim.lsp.buf.declaration() end,
+					{ noremap = true, silent = true })
+				vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end,
+					{ noremap = true, silent = true })
 			end)
 
 			-- IMPORTANT: make sure to setup neodev BEFORE lspconfig
