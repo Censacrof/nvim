@@ -11,6 +11,7 @@ return {
 			vim.keymap.set('n', '<C-p>', builtin.git_files, { desc = "Telescope: find git files" })
 			vim.keymap.set('n', '<leader>ps', builtin.live_grep, { desc = "Telescope: live grep" })
 			vim.keymap.set('n', '<leader>ph', builtin.help_tags, { desc = "Telescope: find help" })
+			vim.keymap.set('n', '<leader>pS', builtin.lsp_workspace_symbols, { desc = "Telescope: find symbol" })
 
 			vim.keymap.set('n', 'gr', function() builtin.lsp_references() end,
 				{ desc = "Telescope: find references", noremap = true, silent = true })
