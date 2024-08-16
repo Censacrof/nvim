@@ -26,7 +26,7 @@ return {
 				vim.keymap.set("n", "gD", function() vim.lsp.buf.declaration() end,
 					{ noremap = true, silent = true, desc = "lsp: go to declaration" })
 				vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end,
-					{ noremap = true, silent = true, desc = "lsp: go to definition"  })
+					{ noremap = true, silent = true, desc = "lsp: go to definition" })
 			end)
 
 			-- IMPORTANT: make sure to setup neodev BEFORE lspconfig
@@ -51,6 +51,10 @@ return {
 				},
 			})
 
+	
+			-- manually configure gleam, mason doesnt support it yet
+			local lspconfig = require("lspconfig")
+			lspconfig.gleam.setup({})
 
 			local cmp = require("cmp")
 			local cmp_action = require("lsp-zero").cmp_action()
