@@ -28,3 +28,10 @@ vim.filetype.add({
  },
 })
 
+-- recognize har files as json
+vim.filetype.add({
+ extension = {
+  har = "json",
+ },
+})
+
