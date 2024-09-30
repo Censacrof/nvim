@@ -40,7 +40,7 @@ return {
 				-- Replace the language servers listed here
 				-- with the ones you want to install
 				ensure_installed = {
-					"tsserver",
+					"ts_ls",
 					"eslint",
 					"rust_analyzer"
 				},
