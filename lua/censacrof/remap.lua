@@ -24,3 +24,5 @@ vim.keymap.set("n", "?", "/")
 -- enter norma mode with jk
 vim.keymap.set("i", "jk", "<esc>")
 
+-- toggle relative line numbers
+vim.keymap.set("n", "<C-L><C-L>", ":set relativenumber!<CR>", { desc = "Toggle relative line numbers" })
